@@ -23,7 +23,7 @@ jobs:
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: Hangzhou Weather Report (${{env.REPORT_DATE}})
-          body: file://result.html
+          body: file://result.png
           to: 490322799@qq.com
           from: GitHub Weather toGet
           content_type: text/html
