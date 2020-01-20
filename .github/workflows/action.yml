@@ -24,6 +24,6 @@ jobs:
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: Hangzhou Weather Report (${{env.REPORT_DATE}})
           body: file://result.html
-          to: ${{ secrets.MAIL_ASEIT }}
+          to: shenneng.lu@aseit.cn
           from: GitHub Actions
           content_type: text/html
