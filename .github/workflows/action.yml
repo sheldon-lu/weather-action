@@ -25,5 +25,5 @@ jobs:
           subject: Hangzhou Weather Report (${{env.REPORT_DATE}})
           body: file://result.html
           to: 490322799@qq.com
-          from: GitHub Actions
+          from: GitHub Weather toGet
           content_type: text/html
